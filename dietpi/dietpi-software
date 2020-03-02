@@ -4492,7 +4492,7 @@ _EOF_
 
 			mkdir -p $G_FP_DIETPI_USERDATA/komga
 			G_RUN_CMD wget "$INSTALL_URL_ADDRESS" -O $G_FP_DIETPI_USERDATA/komga/Komga.jar
-      G_RUN_CMD wget "$INSTALL_URL_ADDRESS" -O $G_FP_DIETPI_USERDATA/komga/application.yml
+      			G_RUN_CMD wget "$INSTALL_URL_ADDRESS" -O $G_FP_DIETPI_USERDATA/komga/application.yml
 
 		fi
 
